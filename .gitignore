@@ -1,0 +1,44 @@
+
+# ==================================
+# PYTHON ENVIRONMENT
+# ==================================
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==================================
+# JUPYTER NOTEBOOK
+# ==================================
+.ipynb_checkpoints/
+
+# ==================================
+# DATA FILES
+# ==================================
+data/raw/*
+data/processed/*
+*.csv
+*.xlsx~
+*.tmp
+
+# Keep dataset documentation
+!data/README.md
+
+# ==================================
+# TEMPORARY FILES
+# ==================================
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================================
+# EDITORS
+# ==================================
+.vscode/
+.idea/
